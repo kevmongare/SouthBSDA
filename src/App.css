@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;600&display=swap');
+@import "tailwindcss";
+*{
+    --themeColor: #1E3A8A; /*Header, navbar, footer background (trust, depth)*/
+    --SecondaryColor: #2E7D32; /*Buttons, highlights growth, creation*/
+    --links:#FFFFFF;
+    --Heading:#1E3A8A;
+    --bg:#FAFAF9;
+}
+body{
+    background-color: var(--bg) !important
+
+}
+h1{
+    color:var( --links) !important;
+    
+}
+h2{
+    font-family: 'Lora', serif;
+  font-weight: 700;
+    color:var(  --Heading) !important;
+    
+}
+h3{
+    font-family: 'Cormorant Garamond', serif !important;
+  font-weight: 700 !important;
+}
+p {
+  font-family: 'jost' !important;
+}
