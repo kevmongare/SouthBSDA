@@ -1,18 +1,18 @@
 const Header ='About Us'
 const BibleVerse = {
-    Verse:"John 3:16",
-    words:'"For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life"'
+    Verse:"Acts 2:42",
+    words:`"And they continued stedfastly in the apostles' doctrine and fellowship, and in breaking of bread, and in prayers."`
 }
 const AboutUs =() =>{
     return(
         <section className="bg-white">
             <div className="max-w-6xl mx-auto">
                 <div className="max-w-5xl mx-auto justify-end flex">
-                        <div className="shadow-white/70 shadow-lg max-w-fit  bg-[var(--themeColor)]/90 p-10  -mt-45 grid items-center text-center">
-                            <h1 className="text-2xl font-bold underline ">
+                        <div className="shadow-white/70 shadow-lg max-w-fit  z-0 scale-130 bg-[var(--themeColor)]/90 p-10  -mt-45 grid items-center text-center">
+                            <h1 className="text-2xl font-bold underline italic">
                             {BibleVerse.Verse}
                             </h1>
-                            <h3 className="mt-2 text-2xs max-w-3xs font-light text-[#FFD700]">{BibleVerse.words}</h3>
+                            <h3 className="mt-2 text-2xs max-w-3xs font-light text-[#FFD700] hover:scale-105">{BibleVerse.words}</h3>
                             <br />
                         </div>
                     </div>
