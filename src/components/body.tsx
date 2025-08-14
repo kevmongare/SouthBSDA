@@ -1,6 +1,6 @@
-import { useState } from "react";
+// import { useState } from "react";
 const Body = () =>{
-    const [count, updatedCount] = useState(0);
+    // const [count, updatedCount] = useState(0);
 
     return(
         <section>
