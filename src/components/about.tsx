@@ -5,14 +5,14 @@ const BibleVerse = {
 }
 const AboutUs =() =>{
     return(
-        <section className="bg-white">
+        <section className="bg-white py-10">
             <div className="max-w-6xl mx-auto">
                 <div className="max-w-5xl mx-auto justify-end flex">
-                        <div className="shadow-white/70 shadow-lg max-w-fit  z-0 scale-130 bg-[var(--themeColor)]/90 p-10  -mt-45 grid items-center text-center">
+                        <div className="shadow-white/70 shadow-lg max-w-fit  z-0 scale-130 bg-[var(--themeColor)]/90 p-10 hidden md:-mt-45 md:grid items-center text-center">
                             <h1 className="text-2xl font-bold underline italic">
                             {BibleVerse.Verse}
                             </h1>
-                            <h3 className="mt-2 text-2xs max-w-3xs font-light text-[#FFD700] hover:scale-105">{BibleVerse.words}</h3>
+                            <h3 className="mt-2 text-2xs max-w-3xs font-light text-[#FFD700] hover:scale-105 transition duration-300">{BibleVerse.words}</h3>
                             <br />
                         </div>
                     </div>
